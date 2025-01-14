@@ -20,9 +20,13 @@ a:hover{
 }
 
 .center-text {
+	background: #0000006b;
+	padding: 5px 10px;
+	border-radius: 15px;
     font-size: 50px;
     color: #fff;
     margin: 0
+	
 }
 /* grid 960px */
 .linha{
@@ -48,7 +52,17 @@ a:hover{
 
 .text-container {
     position: absolute;
-    top: 50%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    text-align: center
+}
+
+
+.text-container2 {
+    position: absolute;
+    top: 85%;
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 1;
@@ -83,7 +97,10 @@ a:hover{
 	width:620px;
 }
 .col9{
-	width: 700px;
+	width: 800px;
+	background: #0000006b;
+	padding: 50px 50px;
+	border-radius: 15px;
 }
 .col10{
 	width: 780px;
@@ -92,6 +109,8 @@ a:hover{
 	width: 860px;
 }
 .col12{
+	top: 70%;
+	z-index: 1;
 	width: 940px;
 }
 /* estilos reutilizáveis */
@@ -138,7 +157,7 @@ img{
 }
 /* layout do site */
 .header{
-	background: #1c1c1c00;
+	background: #000000c4;
 }
 h1.logo{
 	font-weight: 300;
