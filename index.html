@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/zn.ico" type="image/x-icon">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="icon" href="img/zn.ico" type="image/x-icon">
+    <title>ZN COMMUNITY</title>
+    <!-- Link para o Font Awesome (para ícones) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Vídeo de fundo -->
+    <div class="background-video">
+        <video autoplay loop muted>
+            <source src="video/a33.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+    </div>
+
+    <!-- Música de fundo -->
+    <audio autoplay loop>
+        <source src="https://r2.guns.lol/102fb5ca-2f20-4ff8-bf09-fda2a2a532b6.mp3" type="audio/mp3">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <!-- Logo -->
+    <header>
+        <img src="img/gomes.png" alt="Logo" class="logo">
+    </header>
+
+    <!-- Seção de Tópicos -->
+    <section class="topics">
+        <div class="topic" onclick="showDescription('desc1')">
+            <img src="img/mods.png" alt="Imagem 1" class="topic-image">
+            <h3>MODS</h3>
+            <p class="description" id="desc1">Modificações no FiveM permitem personalizar e expandir a experiência de jogo.</p>
+
+        </div>
+        <div class="topic" onclick="showDescription('desc2')">
+            <img src="img/mochila.png"alt="Imagem 2" class="topic-image">
+            <h3>ROUPAS</h3>
+            <p class="description" id="desc2">Design é a arte de transformar ideias em experiências visuais que conectam, emocionam e inspiram.</p>
+
+        </div>
+        <div class="topic" onclick="showDescription('desc3')">
+            <a href="https://www.youtube.com/@Gomes-zn" target="_blank" ><img src="img/ico.png" alt="Imagem 2" class="topic-image"></a>
+            <h3>TUTORIAIS</h3>
+            <p class="description" id="desc3">Criar conteúdo é mais do que ensinar, é despertar a curiosidade e construir pontes entre ideias e pessoas.</p>
+
+        </div>
+    </section>
+
+    <!-- Botão Final com Ícone do Discord -->
+    <section class="final-btn-section">
+        <a href="https://discord.gg/zncommunity" class="final-btn" target="_blank">
+            <i class="fab fa-discord"></i>Acesse nosso discord!
+        </a>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
